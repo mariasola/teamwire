@@ -4,7 +4,11 @@ import Button from "@material-ui/core/Button";
 
 const useStyles = makeStyles(theme => ({
   button: {
-    margin: theme.spacing(1)
+    margin: theme.spacing(1),
+    background: "#02b493",
+    "&:hover": {
+      background: "#04d8ae"
+    }
   },
   input: {
     display: "none"

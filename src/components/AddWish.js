@@ -5,7 +5,7 @@ import ButtonUI from "./ButtonUI";
 const AddWish = props => {
   const { newInput, handleNewInput, handleClick } = props;
   return (
-    <div>
+    <div className="addWish">
       <InputUI newInput={newInput} handleNewInput={handleNewInput} />
       <ButtonUI handleClick={handleClick} />
     </div>
