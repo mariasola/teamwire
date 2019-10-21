@@ -25,6 +25,7 @@
 .wishList{
   display: flex;
   justify-content: center;
+  max-height: 727px;
 }
 .footer{
   display:flex;

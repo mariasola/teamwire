@@ -23,6 +23,9 @@ class App extends React.Component {
   }
   handleClick(ev) {
     ev.preventDefault();
+    if (this.state.newInput === "") {
+      return "";
+    }
     this.state.wishList.push(this.state.newInput);
     this.setState({
       wishList: this.state.wishList,
